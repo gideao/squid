@@ -1,0 +1,20 @@
+--- a/debian/rules
++++ b/debian/rules
+@@ -42,13 +42,16 @@
+ 		--enable-icmp \
+ 		--enable-zph-qos \
+ 		--enable-ecap \
++		--enable-ssl \
++		--enable-ssl-crtd \
+ 		--disable-translation \
+ 		--with-swapdir=/var/spool/squid \
+ 		--with-logdir=/var/log/squid \
+ 		--with-pidfile=/var/run/squid.pid \
+ 		--with-filedescriptors=65536 \
+ 		--with-large-files \
+-		--with-default-user=proxy
++		--with-default-user=proxy \
++		--with-openssl
+ 
+ BUILDINFO := $(shell lsb_release -si 2>/dev/null)
+ 

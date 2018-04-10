@@ -1,3 +1,9 @@
+squid3 (3.5.27-1.1) UNRELEASED; urgency=medium
+
+  * Non-maintainer upload. 
+
+ -- gideao <gideao@macbook>  Sun, 08 Apr 2018 13:56:08 -0300
+
 squid3 (3.5.27-1) UNRELEASED; urgency=high
 
   * New Upstream Release
